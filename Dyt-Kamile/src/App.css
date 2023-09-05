@@ -56,3 +56,50 @@ line-height: normal;
 letter-spacing: 0.996px;
 text-decoration: none;
 }
+.conteiner{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 55px;
+margin-left: 60px;
+}
+.text-conteiner{
+  width: 370px;
+ 
+}
+.login-content{
+  color: var(--black-black, #000);
+font-family: Open Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 55px;
+}
+.login-bold{
+  color: var(--primary-red, #DC2F39);
+font-family: Open Sans;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 78.571% */
+}
+.login-button{
+  display: flex;
+padding: 10px 80px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 10px;
+border: none;
+background: linear-gradient(180deg, #C08FDD 99.99%, rgba(231, 190, 235, 0.50) 100%);
+box-shadow: -2px 3px 6px 0px rgba(0, 0, 0, 0.25);border-radius: 10px;
+cursor: pointer;transition:.2s ease all;
+color: #FFF;
+text-align: center;
+
+/* paragraph/p1 reg */
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px; /* 137.5% */
+}
