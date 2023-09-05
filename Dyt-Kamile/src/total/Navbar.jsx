@@ -4,7 +4,7 @@ export const Navbar = () => {
   return (
     <div className='navbar'>
         <nav className='navbar-bar'>
-            <Link className='navbar-logo' to='/'><p className='navbar-style'>Dyt. Kamile</p>
+            <Link className='navbar-logo' to='/'><p className='navbar-logo-style'>Dyt. Kamile</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="47" height="39" viewBox="0 0 47 39" fill="none">
   <path d="M2.23276 29.4581C4.40548 29.9347 6.15455 29.144 8.56841 28.0184H8.56804C7.89602 26.0845 7.35406 24.1079 6.945 22.1017C4.51553 23.7876 -2.37494 27.9191 2.23286 29.4582L2.23276 29.4581Z" fill="#32794F"/>
   <path d="M9.27507 27.6629C18.0921 21.9507 29.8317 18.8511 40.1193 21.9664C42.7373 9.67231 36.0931 4.74026 27.0295 6.99171C25.9455 8.02309 26.4692 12.0443 24.1705 12.2905C21.4006 12.0706 21.8459 10.1649 22.1965 7.36355C19.8837 6.60559 17.8138 6.31061 16.0039 6.41766C18.256 12.8766 16.0039 16.314 7.17918 17.44C7.16952 20.4511 7.84949 23.9249 9.27497 27.663L9.27507 27.6629Z" fill="url(#paint0_linear_428_20)"/>
