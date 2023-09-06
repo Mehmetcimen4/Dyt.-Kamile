@@ -144,9 +144,9 @@ gap: 5px;
 .formtype2{
   display: flex;
   width: 601px;
-  height: 44px;
+  height: 25px;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
 }
 
 label{
@@ -160,15 +160,16 @@ line-height: 25px; /* 138.889% */
 
 input{
   display: flex;
-width: 632px;
-height: 70px;
-padding: 20px 20px 30px 20px;
+width: 600px;
+height: 40px;
+padding: 10px 10px 15px 10px;
 flex-direction: column;
 justify-content: center;
-align-items: flex-start;
+align-items: center;
 gap: 10px;
 border-radius: 10px;
 border: 1px solid var(--black-black-600, #616161);
 background: var(--black-white, #FFF);
 box-shadow: 0px 1px 4px 0px #E0E0E0;
 }
+

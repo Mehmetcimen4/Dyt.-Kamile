@@ -15,8 +15,24 @@ export const Form = () => {
             <label>Cinsiyet</label>
             <input type="radio" name="Erkek" placeholder='Erkek'/>
             <input type="radio" name="Kadın" placeholder='Kadın'/>
-
         </div>
+
+        <label>Boyunuz</label>
+        <input  type="text" placeholder='Boyunuzu giriniz cm cinsinden' />
+
+        <label>Hedef Kilonuz</label>
+        <input  type="text" placeholder='Hedef kilonuzu giriniz' />
+
+        <label>Mevcut Kilonuz</label>
+        <input  type="text" placeholder='Mevcut kilonuzu giriniz' />
+
+        <label>Bel çevreniz</label>
+        <input  type="text" placeholder='Bel çevrenizi giriniz' />
+
+        <label>Yaşadığınız Şehir</label>
+        <input  type="text" placeholder='Yaşadığınız şehiri giriniz' />
+
+        
         
     </form>
     </div>
