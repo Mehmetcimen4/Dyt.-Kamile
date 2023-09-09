@@ -1,13 +1,39 @@
-
-.desingLogin{
-  width: 100%;
-height: 850.5px;
-flex-shrink: 0;
-position: absolute;
-top: 0;
-left: 0;
-z-index: -1;
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
+
+.back-image1 {
+  background-image: url(./total/images/rectangle-3.png); /* Change the URL to your image path */
+  width: 100%;
+  height: 100%; /* Use viewport height to cover the entire screen */
+  background-size: 100% 100%; /* Ensure the image covers the entire element without distortion */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  flex-shrink: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+
+.back-image2 {
+  background-image: url(./total/images/rectangle-4.png); /* Change the URL to your image path */
+  width: 100%;
+  height: 100%; /* Use viewport height to cover the entire screen */
+  background-size: 100% 100%; /* Ensure the image covers the entire element without distortion */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  flex-shrink: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Use -2 for the second image to make sure it's behind the first one */
+}
+
+
+
+
 
 .navbar{
   display: flex;
@@ -59,10 +85,12 @@ text-decoration: none;
 }
 .conteiner{
 display: flex;
+position: relative;
 flex-direction: column;
 align-items: flex-start;
 gap: 55px;
 margin-left: 60px;
+top: 60px;
 }
 .text-conteiner{
   width: 370px;
@@ -104,23 +132,34 @@ font-style: normal;
 font-weight: 400;
 line-height: 33px; /* 137.5% */
 }
-.diet-food{
-position: relative;
-left: 0;
-margin: 0;
-width: 1441px;
-height: 1080px;
-flex-shrink: 0;
-fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
-top: 1300px;
-z-index: -1;
+.about{
+  padding: 0;
+  margin: 0;
+  left: 0;
 }
+.diet-food {
+  background-image: url(./total/images/en-iyi-diyet-yemeklerijpg-f-zg-k-11.png);
+  position: relative;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%; 
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image within the element */
+  height: 100vh; /* Use viewport height to cover the entire screen */
+  background-size: 100% 100%; /* Ensure the entire image covers the element without distorting it */
+  flex-shrink: 0;
+  top: 1100px;
+  z-index: -1;
+}
+
+
 .about-conteiner{
   position: relative;
   width: 1403px;
 height: 244px;
 flex-shrink: 0;
-top: 150px;
+top: 60px;
 }
 .about-text{
 mix-blend-mode: screen;
@@ -131,6 +170,14 @@ font-size: 150px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+}
+.about-div{
+width: 737px;
+height: 893px;
+flex-shrink: 0;
+fill: rgba(192, 143, 221, 0.86);
+position: relative;
+left:  60%;
 }
 
 .formtype1 {
