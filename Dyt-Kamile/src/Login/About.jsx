@@ -1,24 +1,22 @@
 import React from 'react'
-import regt from '../total/images/rectangle-415.png'
+import kamile from '../total/images/kamile.jpeg'
 export const About = () => {
   return (
     <div id='about'>
       <div>
        <div className='diet-food'>
           <div className='about-conteiner'>
-        <p className='about-text'>HAKKIMDA</p>
-      </div>
-      </div>
-    
-      <div>
-        <img src={regt} alt="" />
-      </div>
-      <div className='about-div'>
+        <h1 className='about-text'>HAKKIMDA</h1>
+         <div className='about-div'>
         <h3 className='about-div-title'>Merhabalar Ben Kamile</h3>
         <p className='about-div-text'></p>
       </div>
+      <div className='about-photo'>
+        <img width='260px' height='365px' src={kamile}></img>
+      </div>
+      </div>
+      </div>
     </div>
-     
     </div>
   )
 }
