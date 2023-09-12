@@ -1,5 +1,6 @@
 import React from 'react'
 import kamile from '../total/images/kamile.jpeg'
+import { Who } from './Who';
 export const About = () => {
   return (
     <div id='about'>
@@ -15,8 +16,12 @@ export const About = () => {
         <img width='260px' height='365px' src={kamile}></img>
       </div>
       </div>
-      </div>
+      
+     
+    </div> 
     </div>
+
+      <Who></Who>
     </div>
   )
 }
