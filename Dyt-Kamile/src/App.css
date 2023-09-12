@@ -209,7 +209,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 .who-div{
   position: relative;
-  top: 1500px;
+  top: 1000px;
 }
 
 .who-div-image1 {
@@ -217,7 +217,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
   top: 1500px;
   background-image: url(./total/images/rectangle-24.png);
   width: 100%;
-  height: 1550px;
+  height: 1855px;
   flex-shrink: 0;
   background-repeat: no-repeat;
   background-size: 100% 100%; /* Arka plan resminin boyutunu tamamen kaplamasını sağlar */
@@ -231,7 +231,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
   top: 1501px;
   background-image: url(./total/images/rectangle-25.png);
   width: 100%;
-  height: 1550px;
+  height: 1855px;
   flex-shrink: 0;
   background-repeat: no-repeat;
   background-size: 100% 100%; /* Arka plan resminin boyutunu tamamen kaplamasını sağlar */
@@ -239,7 +239,43 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
   fill: rgba(229, 190, 235, 0.30);
   z-index: -2; /* İlk resmi altta göstermek için z-index değerini değiştirin */
 }
-
+.who-div-regt{
+  width: 540px;
+height: 188px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #C08FDD;
+}
+.who-div-text{
+  width: 800px;
+  display: flex;
+}
+.who-text-w{
+  color: #FFF;
+font-family: Open Sans;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 78.571% */
+letter-spacing: 1.4px;
+}
+.who-text-p{
+  color: #C08FDD;
+font-family: Open Sans;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px;
+letter-spacing: 1.4px;
+}
+.who-circles{
+  position: relative;
+  top: 23%;
+  left: 58%;
+  width: 543px;
+height: 471px;
+flex-shrink: 0;
+}
 
 
 .formtype1 {
