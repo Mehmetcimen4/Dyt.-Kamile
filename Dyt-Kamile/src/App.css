@@ -12,7 +12,7 @@ body, html {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   flex-shrink: 0;
-  position: static;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: -2;
@@ -25,7 +25,7 @@ body, html {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   flex-shrink: 0;
-  position: static;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
@@ -43,7 +43,7 @@ body, html {
   align-items: flex-start;
   gap: 508px;
   flex-shrink: 0;
-  z-index: -3;
+ 
 }
 .navbar-bar{
   display: flex;
@@ -247,12 +247,15 @@ border-radius: 20px;
 background: #C08FDD;
 }
 .who-div-text{
-  width: 800px;
+  width: 900px;
   display: flex;
+  position: relative;
+  top: 16%;
 }
 .who-text-w{
-  color: #FFF;
+color: #FFF;
 font-family: Open Sans;
+margin-left: 34.8%;
 font-size: 70px;
 font-style: normal;
 font-weight: 700;
@@ -270,11 +273,21 @@ letter-spacing: 1.4px;
 }
 .who-circles{
   position: relative;
-  top: 23%;
+  top: 21%;
   left: 58%;
   width: 543px;
 height: 471px;
 flex-shrink: 0;
+}
+.who-hr{
+position: relative;
+top: 26%;
+background-image: url(./total/images/rectangle-28.png);
+width: 1340px;
+height: 4px;
+flex-shrink: 0;
+background: radial-gradient(50% 50% at 50% 50%, #32794F 0%, rgba(50, 121, 79, 0.00) 100%);
+
 }
 
 
