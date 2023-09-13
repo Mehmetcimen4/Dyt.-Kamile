@@ -1,9 +1,9 @@
-import { Login } from './Login/login'
+import { Login } from './Login/Login'
 import {Route,Routes} from 'react-router-dom'
 import { Navbar } from './total/Navbar'
 import {Form} from './components/Form'
 import './App.css'
-import About from './Login/About'
+import {About} from './Login/About'
 function App() {
  
 
