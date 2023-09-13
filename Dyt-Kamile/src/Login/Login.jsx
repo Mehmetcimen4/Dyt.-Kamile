@@ -1,6 +1,7 @@
 import React from 'react';
 import { About } from './About';
 import { Contact } from './Contact';
+import { Footer } from '../total/Footer';
 export const Login = () => {
   return (
     <div >
@@ -22,6 +23,8 @@ export const Login = () => {
 </div>
   <About></About>
   <Contact></Contact>
+  
+  
 
 
 

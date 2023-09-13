@@ -27,8 +27,8 @@ export const Navbar = () => {
             </defs>
           </svg>
         </Link>
-        <Link className='navbar-abcon' to='/#about'>Hakkımda</Link>
-        <Link className='navbar-abcon' to='/#contact'>İletişim</Link>
+        <Link className='navbar-abcon' to='/about'>Hakkımda</Link>
+        <Link className='navbar-abcon' to='/contact'>İletişim</Link>
       </nav>
     </div>
   );

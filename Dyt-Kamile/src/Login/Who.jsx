@@ -6,9 +6,9 @@ export const Who = () => {
     <div className='who-div-image1'>
       <div className='who-div-text'>
         <div className='who-div-regt'>
-           <p className='who-text-w'>DİYETİSY</p>
+           <p className='who-text-w'>DİYETİSYEN</p>
         </div>
-       <p className='who-text-p'>EN DENİR</p>
+       <p className='who-text-p'>KİMLERE DENİR</p>
       </div>
        <div className='who-circles'>
         <img src={circles} alt="" />

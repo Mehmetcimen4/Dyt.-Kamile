@@ -1,6 +1,7 @@
 import React from 'react'
 import kamile from '../total/images/kamile.jpeg'
 import { Who } from './Who';
+import { Footer } from '../total/Footer';
 export const About = () => {
   return (
     <div id='about'>
@@ -22,6 +23,7 @@ export const About = () => {
     </div>
 
       <Who></Who>
+      
     </div>
   )
 }
