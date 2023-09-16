@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import faceboook from '../total/images/ftfacebook.png'
+import insta from '../total/images/insta.png'
+import twitter from '../total/images/twitter.png'
+import mail from '../total/images/mail.png'
 
 export const Footer = () => {
   return (
@@ -17,12 +21,24 @@ export const Footer = () => {
                 <Link to='/paketler'>Paketler</Link>
                 <Link to='/tarifler'>Tarifler</Link>
             </div>
+            <div className='footer-bar'></div>
             <div className='footer-icons'>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>
+                    <img src={faceboook} alt="" />
+                </div>
+                <div>
+                    <img src={insta} alt="" />
+                </div>
+                <div>
+                    <img src={twitter} alt="" />
+                </div>
+                <div>
+                    <img src={mail} alt="" />
+                </div>
 
+            </div>
+            <div className='footer-end'>
+                <p>© 2023 Maxxat Dev</p>
             </div>
         </div>
         
