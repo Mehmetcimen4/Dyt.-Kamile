@@ -4,14 +4,15 @@ import faceboook from '../total/images/ftfacebook.png'
 import insta from '../total/images/insta.png'
 import twitter from '../total/images/twitter.png'
 import mail from '../total/images/mail.png'
+import logo from '../total/images/logo.png'
 
 export const Footer = () => {
   return (
     <div>
         <div className='footer'>
             <div className='footer-title'>
-                <h2>Dyt Kamile</h2>
-                <img src="" alt="" />  
+                <h2>Dyt. Kamile</h2>
+                <img src={logo} alt="" />
             </div>
             <div className='footer-link'>
                 <Link to='/about'>Hakkımda</Link>

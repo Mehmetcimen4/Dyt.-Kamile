@@ -135,7 +135,7 @@ line-height: 33px; /* 137.5% */
   left: 0;
 }
 .diet-food {
-  background-image: url(./total/images/en-iyi-diyet-yemeklerijpg-f-zg-k-11.png);
+  background-image: url(./total/images/about-bg2.jpg);
   position: relative;
   left: 0;
   margin: 0;
@@ -159,27 +159,29 @@ flex-shrink: 0;
 top: 30px;
 }
 .about-text{
-mix-blend-mode: screen;
-color: rgba(245, 245, 245, 0.94);
+/* mix-blend-mode: screen; */
+color: #BF58A2;
 text-align: center;
-font-family: Open Sans;
+font-family: Oregano;
 font-size: 110px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
 .about-div {
-  background-image: url(./total/images/rectangle-415.png);
+  background-image: url(./total/images/aboutrectangle.png);
   width: 500px;
   height: 605.5px;
   flex-shrink: 0;
-  fill: rgba(192, 143, 221, 0.86);
+  fill: rgba(216, 240, 252, 0.86);
+  /* fill: rgba(192, 143, 221, 0.86); */
   position: relative;
   top: 15%;
   left: 50%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 .about-div-title{
 width: 500px;
@@ -391,25 +393,28 @@ background: rgba(229, 190, 235, 0.75);
 display: flex;
 flex-direction: column;
 align-items: center;
+margin-top: 5%;
 
 }
 
 .footer .footer-title{
   color: #32794F;
 font-family: Amita;
-font-size: 34.272px;
+font-size: 20.272px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 1.371px;
-width: 285px;
+width: 350px;
 height: 67px;
 top: -10.12px;
 left: 15.34px;
-line-height: 66.56px;
+/* line-height: 55.56px; */
 padding-bottom: 10%;
 padding-top: 5%;
-
+display: flex;
+justify-content: flex-end;
+align-items: center;
 }
 
 .footer .footer-link{
@@ -421,7 +426,8 @@ justify-content: space-between;
 align-items: center;
 flex-shrink: 0;
 padding-bottom: 10%;
-
+font-size: 20px;
+font-family: Open Sans;
 }
 
 .footer .footer-bar{

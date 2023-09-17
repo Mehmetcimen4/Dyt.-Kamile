@@ -18,7 +18,7 @@ export const Who = () => {
        <div className='who-hr'></div>
     </div>
     <div className='who-div-image2'>
-        
+        <img src="" alt="" />
     </div>
     </div>
   )
