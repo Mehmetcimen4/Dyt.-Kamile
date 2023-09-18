@@ -1,5 +1,6 @@
 import React from 'react'
 import circles from '../total/images/circles.png'
+import strawberries from '../total/images/strawberries.png'
 export const Who = () => {
   return (
     <div className='who-div'>
@@ -18,7 +19,7 @@ export const Who = () => {
        <div className='who-hr'></div>
     </div>
     <div className='who-div-image2'>
-        <img src="" alt="" />
+        <img src={strawberries} alt="" />
     </div>
     </div>
   )
