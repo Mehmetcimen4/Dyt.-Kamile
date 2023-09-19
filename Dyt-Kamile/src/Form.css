@@ -1,0 +1,54 @@
+.formtype1 {
+    display: flex;
+  width: 632px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  }
+
+  .formtype2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 95px;
+  }
+
+  
+.formtype2 .radio1{
+    display: flex;
+    flex-direction: row;
+    width: 86px;
+    height: 25px;
+    align-items: center;
+    gap: 10px;
+  }
+
+  
+
+  .formtype1 input{
+    display: flex;
+  width: 600px;
+  height: 40px;
+  padding: 10px 10px 15px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--black-black-600, #616161);
+  background: var(--black-white, #FFF);
+  box-shadow: 0px 1px 4px 0px #E0E0E0;
+  }
+
+  label{
+    color: #000;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+  }
+
+  h2{
+    text-align: center;
+  }

@@ -4,6 +4,7 @@ import { Navbar } from './total/Navbar'
 import {Footer} from './total/Footer'
 import {Form} from './components/Form'
 import './App.css'
+import './Form.css'
 import {About} from './Login/About'
 import {Contact} from './Login/Contact'
 function App() {
