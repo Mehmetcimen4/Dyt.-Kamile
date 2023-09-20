@@ -5,7 +5,7 @@ export const Form = () => {
   return (
     <div>
         <h2>Diyet Formu</h2>
-    <form>
+    <form className='form1'>
         <div className='formtype1'>
             <label>Ad-Soyad</label>
             <input  type="text" placeholder='Ad-Soyad giriniz' />
@@ -14,9 +14,8 @@ export const Form = () => {
             <input  type="date" placeholder='Doğum tarihinizi giriniz' />
         </div>
        
-        <label>Cinsiyet</label>
+        <label className='seperate-label'>Cinsiyet</label>
         <div className='formtype2'>
-            
             <div className='radio1'>
               <input type="radio" name="Erkek" placeholder='Erkek'/>
               <label>Erkek</label>
@@ -25,7 +24,7 @@ export const Form = () => {
               <input type="radio" name="Kadın" placeholder='Kadın'/>
               <label>Kadın</label>
             </div>
-          </div>
+        </div>
 
         <div className='formtype1'>
             <label>Boyunuz</label>
@@ -42,6 +41,24 @@ export const Form = () => {
 
             <label>Yaşadığınız Şehir</label>
             <input  type="text" placeholder='Yaşadığınız şehiri giriniz' />
+
+            <label>Telefon Numaranız</label>
+            <input  type="text" placeholder='Yaşadığınız şehiri giriniz' />
+
+            <label>Mesleğiniz</label>
+            <input  type="text" placeholder='Yaşadığınız şehiri giriniz' />
+        </div>
+
+        <label className='seperate-label'>Evli misiniz?</label>
+        <div className='formtype2'>
+          <div className='radio1'>
+            <input type="radio" name="Evet"/>
+            <label>Evet</label>
+          </div>
+          <div className='radio1'>
+            <input type="radio" name="Hayır"/>
+            <label>Hayır</label>
+          </div>
         </div>
 
        
