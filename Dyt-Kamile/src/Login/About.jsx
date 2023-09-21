@@ -1,7 +1,7 @@
 import React from 'react'
 import kamile from '../total/images/kamile.jpeg'
 import { Who } from './Who';
-import { Footer } from '../total/Footer';
+import { Login } from './Login';
 export const About = () => {
   return (
     <div id='about'>

@@ -1,5 +1,7 @@
 import React from 'react'
 // import '../Form.css'
+import arrow from '../total/images/arrow-10.png'
+import { Link } from 'react-router-dom'
 
 export const Form = () => {
   return (
@@ -43,10 +45,10 @@ export const Form = () => {
             <input  type="text" placeholder='Yaşadığınız şehiri giriniz' />
 
             <label>Telefon Numaranız</label>
-            <input  type="text" placeholder='Yaşadığınız şehiri giriniz' />
+            <input  type="text" placeholder='Telefon numaranızı giriniz' />
 
             <label>Mesleğiniz</label>
-            <input  type="text" placeholder='Yaşadığınız şehiri giriniz' />
+            <input  type="text" placeholder='Mesleğinizi giriniz' />
         </div>
 
         <label className='seperate-label'>Evli misiniz?</label>
@@ -61,11 +63,19 @@ export const Form = () => {
           </div>
         </div>
 
-       
-
-        
-        
+        <div className='formtype1'>
+            <label>Kaç Çocuğunuz Var?</label>
+            <input  type="text" placeholder='Kaç çocuğunuz olduğunu giriniz' />
+        </div>
     </form>
+    <div className='buttons'>
+      <button id='first'>Formu Temizle</button>
+      
+      <Link to='/form-2'>Sonraki</Link>
+      <img src={arrow}/>
+      
+      
+    </div>
     </div>
   )
 }

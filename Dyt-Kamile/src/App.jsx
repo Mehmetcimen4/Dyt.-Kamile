@@ -7,6 +7,7 @@ import './App.css'
 import './Form.css'
 import {About} from './Login/About'
 import {Contact} from './Login/Contact'
+import { Form2 } from './components/Form2'
 function App() {
  
 
@@ -14,10 +15,11 @@ function App() {
     <div>
     <Navbar></Navbar>
     <Routes>
-      <Route path='/' element ={<Login></Login>}></Route>
-      <Route path='/about' element={<About></About>}></Route>
-      <Route path='/contact' element={<Contact/>}></Route>
-      <Route path='/form' element ={<Form/>}></Route>
+      <Route path='/' exact element ={<Login></Login>}></Route>
+      <Route path='/about' exact element={<About></About>}></Route>
+      <Route path='/contact' exact element={<Contact/>}></Route>
+      <Route path='/form' exact element ={<Form/>}></Route>
+      <Route path='/form-2' exact element ={<Form2/>}></Route>
     </Routes>
     <Footer></Footer>
     </div>

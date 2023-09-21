@@ -66,3 +66,48 @@
   h2{
     text-align: center;
   }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 45px;
+    
+  }
+
+  .buttons #first {
+    color: #B05757;
+text-align: center;
+font-family: Allerta Stencil;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.028px;
+text-decoration-line: underline;
+background: #FFF;
+  }
+
+  .buttons #second {
+    color: #FFF;
+text-align: center;
+font-family: Alfa Slab One;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 114.286% */
+letter-spacing: 0.028px;
+width: 130px;
+height: 38px;
+padding: 7px 80px 7px 50px;
+border-radius: 8px;
+background: rgba(0, 0, 0, 0.40);
+display: flex;
+flex-direction: row;
+  }
+
+.buttons img {
+  padding-left: 9px;
+}
