@@ -71,7 +71,8 @@ export const Form = () => {
     <div className='buttons'>
       <button id='first'>Formu Temizle</button>
       
-      <Link to='/form-2'>Sonraki</Link>
+      <Link style={{color: 'white', background: 'rgba(0, 0, 0, 0.40)'}} 
+      to='/form-2'>Sonraki</Link>
       <img src={arrow}/>
       
       
